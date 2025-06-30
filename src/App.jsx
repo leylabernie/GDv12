@@ -41,7 +41,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="*" element={<div>Page not found</div>} />
+          <Route path="*" element={<div style={{padding: '2rem', textAlign: 'center'}}>Page not found</div>} />
         </Routes>
         <Footer />
       </Router>
