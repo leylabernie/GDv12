@@ -21,7 +21,7 @@ const categories = [
 ];
 
 const Header = () => {
-  console.log('Header component rendering');  
+  console.log('Header component rendering');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -71,7 +71,7 @@ const Header = () => {
           
           {/* Logo */}
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
               <Typography variant="h5" sx={{ fontFamily: 'Playfair Display' }}>
                 GlamorousDesi
               </Typography>
