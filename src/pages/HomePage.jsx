@@ -355,3 +355,5 @@ const HomePage = () => {
                 variant="contained" 
                 color="primary"
                 component={Link
+                  );
+};
