@@ -5,6 +5,8 @@ import {
 } from '@mui/material';
 import { Link } from 'react-router-dom';
 
+console.log('HomePage.jsx loaded');
+
 // Sample featured products
 const featuredProducts = [
   {
