@@ -56,6 +56,7 @@ const categories = [
 ];
 
 const HomePage = () => {
+  console.log('HomePage component rendering');
   return (
     <Box>
       {/* Hero Banner */}
