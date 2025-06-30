@@ -10,7 +10,10 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { Link as RouterLink } from 'react-router-dom';
 
+console.log('Footer.jsx loaded');
+
 const Footer = () => {
+  console.log('Footer component rendering');
   const [email, setEmail] = React.useState('');
 
   const handleNewsletterSubmit = (e) => {
