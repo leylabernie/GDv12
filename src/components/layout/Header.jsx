@@ -9,6 +9,8 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import PersonIcon from '@mui/icons-material/Person';
 import { Link } from 'react-router-dom';
 
+console.log('Header.jsx loaded');
+
 const categories = [
   { name: 'Sarees', path: '/category/sarees' },
   { name: 'Lehengas', path: '/category/lehengas' },
@@ -19,6 +21,7 @@ const categories = [
 ];
 
 const Header = () => {
+  console.log('Header component rendering');  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
