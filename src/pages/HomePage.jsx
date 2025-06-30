@@ -351,9 +351,20 @@ const HomePage = () => {
                   • Wedding timeline coordination
                 </Typography>
               </Box>
-              <Button 
-                variant="contained" 
-                color="primary"
-                component={Link
-                  );
+              <Button
+    variant="contained"
+    color="primary"
+    component={Link}
+    to="/myshaadidreams"
+>
+    Explore Wedding Services
+</Button>
+      </Grid>
+    </Grid>
+  </Box>
+</Container>
+    </Box>
+  );
 };
+
+export default HomePage;
